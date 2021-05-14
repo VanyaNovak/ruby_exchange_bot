@@ -5,7 +5,7 @@ require './lib/gateway'
 
 FAVOURITE_EXCHANGE_RATES = %i(USD EUR PLN GBP)
 
-token = "1362311396:AAHH-lb-3MYHHF-G9lq8pF8QIEaKHbu32n4"
+token = ""
 
 def cache
     @cache ||= Zache.new
